@@ -1,4 +1,24 @@
 body {
   margin-left: 5%;
   margin-right: 5%;
+  font-family: comic, sans-serif;
+}
+.titles {
+  font-size: 250%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0568f4;
+  text-align: center;
+}
+.sub-titles {
+  font-size: 150%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0568f4;
+  text-align: center;
+}
+.nav {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #f46905;
 }
