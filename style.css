@@ -1,13 +1,14 @@
 body {
+  color: white;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .titles {
   font-size: 250%;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 .sub-titles {
   font-size: 150%;
@@ -20,12 +21,22 @@ header {
   margin-right: -5%;
   text-align: center;
   margin-bottom: 10px;
-  background-color: #f46905;
+  background-color: #0d0f3b;
 }
 footer {
   margin-left: -5%;
   margin-right: -5%;
   text-align: center;
   margin-bottom: 10px;
-  background-color: #f46905;
+  background-color: #0d0f3b;
+}
+button {
+  padding: 1%;
+  background-color: #0d0f3b;
+  color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
