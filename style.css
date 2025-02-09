@@ -15,14 +15,14 @@ body {
   margin-bottom: 10px;
   text-align: center;
 }
-.upper-nav {
+header {
   margin-left: -5%;
   margin-right: -5%;
   text-align: center;
   margin-bottom: 10px;
   background-color: #f46905;
 }
-.lower-nav {
+footer {
   margin-left: -5%;
   margin-right: -5%;
   text-align: center;
