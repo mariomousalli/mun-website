@@ -55,9 +55,24 @@ footer {
   font-weight: bold;
   border-radius: 5px;
   transition: background 0.3s ease-in-out;
+  transition: scale 1s ease-in-out;
 }
 
 .nav-button:hover {
   background-color: #161972;
   transform: scale(1.1);
+}
+.content {
+  margin: 2%;
+  color: black; /* Text color */
+  padding: 20px; /* Increased padding for a more spacious feel */
+  border-radius: 15px; /* Softer rounded corners */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Softer and larger shadow */
+  background-color: #f9f9f9; /* Light background color for contrast */
+  border: 1px solid #e0e0e0; /* Subtle border for definition */
+  transition: transform 0.3s ease; /* Smooth transformation on hover */
+}
+
+.content:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
 }
