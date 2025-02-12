@@ -4,7 +4,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 body {
   color: white;
   margin-left: 5%;
@@ -21,7 +20,6 @@ body {
   text-align: center;
   text-decoration: none;
 }
-
 .sub-titles {
   font-size: 150%;
   font-weight: bold;
@@ -45,6 +43,15 @@ footer {
   background-color: #0d0f3b;
 }
 
+nav {
+  margin-left: 25%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  scale: 1.4;
+  padding: 1%;
+}
 .nav-button {
   display: inline-block;
   padding: 10px 20px;
@@ -54,14 +61,13 @@ footer {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
-  transition: background 0.3s ease-in-out;
-  transition: scale 1s ease-in-out;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-
 .nav-button:hover {
   background-color: #161972;
   transform: scale(1.1);
 }
+
 .content {
   margin: 2%;
   color: black; /* Text color */
@@ -72,7 +78,6 @@ footer {
   border: 1px solid #e0e0e0; /* Subtle border for definition */
   transition: transform 0.3s ease; /* Smooth transformation on hover */
 }
-
 .content:hover {
   transform: translateY(-5px); /* Slight lift effect on hover */
 }
