@@ -1,6 +1,8 @@
 html,
 body {
   height: 100%;
+  width: 100%;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
@@ -10,6 +12,7 @@ body {
   margin-right: 5%;
   font-family: Helvetica, sans-serif;
   height: 100%;
+  width: 100%;
 }
 
 .titles {
@@ -44,13 +47,12 @@ footer {
 }
 
 nav {
-  margin-left: 25%;
-  width: 50%;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  align-items: center;
   scale: 1.4;
   padding: 1%;
+  gap: 5%;
 }
 .nav-button {
   display: inline-block;
