@@ -88,6 +88,10 @@ nav {
     scale: 0.55;
     align-items: center;
   }
+  .nav-button {
+    padding: 3% 7%;
+    border-radius: 5px;
+  }
   header {
     width: 100%;
   }
