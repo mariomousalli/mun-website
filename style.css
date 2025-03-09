@@ -94,11 +94,19 @@ nav {
   }
   header {
     width: 100%;
+    padding-top: 5%;
   }
   footer {
     width: 100%;
   }
   .content {
-    margin-right: 5%;
+    margin-left: -4%;
+    scale: 0.97;
+  }
+  .titles {
+    font-size: 100%;
+  }
+  .sub-titles {
+    font-size: 100%;
   }
 }
