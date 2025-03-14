@@ -463,7 +463,6 @@ footer {
   
   .nav-button {
     width: 100%;
-<<<<<<< HEAD
     text-align: center;
     margin: 0.25rem 0;
   }
@@ -492,21 +491,5 @@ footer {
   
   .footer-container {
     grid-template-columns: 1fr;
-=======
-    padding-top: 5%;
-  }
-  footer {
-    width: 100%;
-  }
-  .content {
-    margin-left: -4%;
-    scale: 0.97;
-  }
-  .titles {
-    font-size: 100%;
-  }
-  .sub-titles {
-    font-size: 100%;
->>>>>>> 8047e7dfe6b5752afaeb08aa7292205015712849
   }
 }

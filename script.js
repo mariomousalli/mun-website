@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // ETMUN Website JavaScript
 
 // Mobile Navigation Toggle
@@ -212,17 +211,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-=======
-window.onload = function() {
-    function(hamberger) {
-        var b = document.getElementById("hamberger");
-        b.addEventListener("click", function() {
-            var x = document.getElementById("menu");
-            if (x.className === "menu") {
-                x.className += " responsive";
-            } else {
-                x.className = "menu";
-            }
-        });
-    }
->>>>>>> 8047e7dfe6b5752afaeb08aa7292205015712849
