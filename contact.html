@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ETMUN</title>
+    <meta name="description" content="Contact ETMUN - English Talents Model United Nations conference for inquiries, support, and information." />
+    <title>Contact Us - English Talents Model United Nations</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -13,18 +15,177 @@
     </header>
 
     <nav>
-      <a href="index.html" class="nav-button">Home</a>
-      <a href="about.html" class="nav-button">About</a>
-      <a href="comitties.html" class="nav-button">Comitties</a>
-      <a href="contact.html" class="nav-button">Contact</a>
-      <a href="register.html" class="nav-button">Register</a>
+      <button class="mobile-menu-btn">☰</button>
+      <div class="nav-links">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="about.html" class="nav-button">About</a>
+        <a href="committees.html" class="nav-button">Committees</a>
+        <a href="contact.html" class="nav-button">Contact</a>
+        <a href="register.html" class="nav-button">Register</a>
+      </div>
     </nav>
 
-    <script src="script.js"></script>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Contact Us</h1>
+        <p>Get in touch with the ETMUN team for any inquiries or support</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-content">
+            <h3>General Inquiries</h3>
+            <p>
+              <strong>Email:</strong> etmun@gmail.com<br>
+              <strong>Phone:</strong> 07945676890<br>
+              <strong>Response Time:</strong> Within 48 hours
+            </p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3>Registration Support</h3>
+            <p>
+              <strong>Email:</strong> registration@etmun.org<br>
+              <strong>Phone:</strong> 07945676891<br>
+              <strong>Response Time:</strong> Within 24 hours
+            </p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3>Visit Us</h3>
+            <p>
+              <strong>Address:</strong><br>
+              English Talents School<br>
+              123 Education Lane<br>
+              London, UK<br>
+              <strong>Office Hours:</strong> Monday-Friday, 9 AM - 5 PM
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mt-5">Send Us a Message</h2>
+      <p>
+        Have a question or need assistance? Fill out the form below, and a member of our team will get back to you as soon as possible.
+      </p>
+      
+      <form id="contactForm" class="mt-4">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">Subject *</label>
+          <select id="subject" name="subject" required>
+            <option value="">-- Select a subject --</option>
+            <option value="General Inquiry">General Inquiry</option>
+            <option value="Registration">Registration</option>
+            <option value="Committee Information">Committee Information</option>
+            <option value="Technical Support">Technical Support</option>
+            <option value="Sponsorship">Sponsorship</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="content">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          When will I receive a response to my inquiry? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>We aim to respond to all inquiries within 48 hours during business days. For urgent matters, please call our phone number directly.</p>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          How can I join the ETMUN organizing team? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>We welcome enthusiastic individuals to join our organizing team! Please send an email to etmun@gmail.com with the subject "Joining ETMUN Team" and include your resume and a brief statement explaining why you'd like to join and what skills you can contribute.</p>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          Can I visit the ETMUN office in person? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>Yes, you can visit our office during business hours (Monday-Friday, 9 AM - 5 PM). We recommend scheduling an appointment in advance to ensure that someone is available to assist you.</p>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          How can my school participate in ETMUN? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>Schools interested in participating in ETMUN should contact us via email at etmun@gmail.com. We'll provide information about registration, fees, and the number of delegates your school can send. We encourage early registration as spots fill up quickly.</p>
+        </div>
+      </div>
+    </section>
 
     <footer>
-      <p>Contact us: 07945676890 | etmun@gmail.com</p>
-      <p>© 2025 ETMUN. All rights reserved.</p>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About ETMUN</h3>
+          <p>English Talents Model United Nations is an educational conference that simulates the United Nations to develop students' diplomatic and leadership skills.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About</a></p>
+          <p><a href="committees.html">Committees</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="register.html">Register</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: etmun@gmail.com</p>
+          <p>Phone: 07945676890</p>
+          <p>Address: English Talents School</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter">t</a>
+            <a href="#" aria-label="Instagram">i</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 ETMUN. All rights reserved.</p>
+      </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

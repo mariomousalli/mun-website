@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Register for ETMUN - English Talents Model United Nations conference and secure your spot as a delegate." />
+    <title>Register - English Talents Model United Nations</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <a class="titles" href="index.html">ETMUN</a>
+      <h2 class="sub-titles">English Talents Model United Nations</h2>
+    </header>
+
+    <nav>
+      <button class="mobile-menu-btn">☰</button>
+      <div class="nav-links">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="about.html" class="nav-button">About</a>
+        <a href="committees.html" class="nav-button">Committees</a>
+        <a href="contact.html" class="nav-button">Contact</a>
+        <a href="register.html" class="nav-button">Register</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Register for ETMUN 2025</h1>
+        <p>Secure your spot as a delegate for this year's conference</p>
+      </div>
+    </section>
+
+    <section class="content">
+      <h2>Registration Information</h2>
+      <p>
+        Thank you for your interest in participating in ETMUN 2025! Registration is open to high school students (ages 14-18) from all schools. Please read the following information carefully before completing the registration form.
+      </p>
+      
+      <div class="card-container">
+        <div class="card">
+          <div class="card-content">
+            <h3>Important Dates</h3>
+            <ul>
+              <li><strong>Early Registration Deadline:</strong> June 30, 2025</li>
+              <li><strong>Regular Registration Deadline:</strong> August 31, 2025</li>
+              <li><strong>Conference Dates:</strong> October 15-17, 2025</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3>Registration Fees</h3>
+            <ul>
+              <li><strong>Early Registration:</strong> £50 per delegate</li>
+              <li><strong>Regular Registration:</strong> £65 per delegate</li>
+              <li><strong>School Delegation (10+ delegates):</strong> 10% discount</li>
+            </ul>
+            <p>Fee includes conference materials, lunch, and refreshments during the conference.</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <h3>What to Prepare</h3>
+            <ul>
+              <li>Position paper on your committee topics</li>
+              <li>Research on your assigned country</li>
+              <li>Formal attire for the conference</li>
+              <li>Notebook and writing materials</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <h2>Registration Form</h2>
+      <p>
+        Please fill out the form below to register for ETMUN 2025. Fields marked with an asterisk (*) are required.
+      </p>
+      
+      <form id="registrationForm" class="mt-4">
+        <h3>Personal Information</h3>
+        
+        <div class="form-group">
+          <label for="fullName">Full Name *</label>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="age">Age *</label>
+          <input type="number" id="age" name="age" min="13" max="19" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <option value="">-- Select --</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Non-binary">Non-binary</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+          </select>
+        </div>
+        
+        <h3 class="mt-4">School Information</h3>
+        
+        <div class="form-group">
+          <label for="schoolName">School Name *</label>
+          <input type="text" id="schoolName" name="schoolName" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="schoolAddress">School Address *</label>
+          <input type="text" id="schoolAddress" name="schoolAddress" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="teacherName">Teacher/Advisor Name *</label>
+          <input type="text" id="teacherName" name="teacherName" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="teacherEmail">Teacher/Advisor Email *</label>
+          <input type="email" id="teacherEmail" name="teacherEmail" required>
+        </div>
+        
+        <h3 class="mt-4">Conference Preferences</h3>
+        
+        <div class="form-group">
+          <label for="committeePreference1">Committee Preference 1 *</label>
+          <select id="committeePreference1" name="committeePreference1" required>
+            <option value="">-- Select --</option>
+            <option value="General Assembly">General Assembly</option>
+            <option value="Security Council">Security Council</option>
+            <option value="Human Rights Council">Human Rights Council</option>
+            <option value="Economic and Social Council">Economic and Social Council</option>
+            <option value="World Health Organization">World Health Organization</option>
+            <option value="Crisis Committee">Crisis Committee</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="committeePreference2">Committee Preference 2 *</label>
+          <select id="committeePreference2" name="committeePreference2" required>
+            <option value="">-- Select --</option>
+            <option value="General Assembly">General Assembly</option>
+            <option value="Security Council">Security Council</option>
+            <option value="Human Rights Council">Human Rights Council</option>
+            <option value="Economic and Social Council">Economic and Social Council</option>
+            <option value="World Health Organization">World Health Organization</option>
+            <option value="Crisis Committee">Crisis Committee</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="countryPreference1">Country Preference 1 *</label>
+          <input type="text" id="countryPreference1" name="countryPreference1" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="countryPreference2">Country Preference 2 *</label>
+          <input type="text" id="countryPreference2" name="countryPreference2" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="countryPreference3">Country Preference 3 *</label>
+          <input type="text" id="countryPreference3" name="countryPreference3" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="experience">Previous MUN Experience</label>
+          <select id="experience" name="experience">
+            <option value="">-- Select --</option>
+            <option value="None">None</option>
+            <option value="1-2 conferences">1-2 conferences</option>
+            <option value="3-5 conferences">3-5 conferences</option>
+            <option value="More than 5 conferences">More than 5 conferences</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="dietaryRestrictions">Dietary Restrictions/Allergies</label>
+          <textarea id="dietaryRestrictions" name="dietaryRestrictions"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="additionalInfo">Additional Information</label>
+          <textarea id="additionalInfo" name="additionalInfo"></textarea>
+        </div>
+        
+        <div class="form-group">
+          <input type="checkbox" id="termsAgreement" name="termsAgreement" required>
+          <label for="termsAgreement">I agree to the terms and conditions of ETMUN 2025 *</label>
+        </div>
+        
+        <div class="form-group">
+          <button type="submit" class="btn">Submit Registration</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="content">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          What happens after I submit my registration? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>After submitting your registration, you will receive a confirmation email within 48 hours. This email will include payment instructions and next steps. Your registration is not complete until payment is received.</p>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          Can I request a specific country or committee? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>Yes, you can indicate your preferences in the registration form. While we try to accommodate preferences, assignments are made on a first-come, first-served basis, so early registration is recommended.</p>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          Is there a refund policy? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>Refunds are available for cancellations made before September 15, 2025, with a 25% administrative fee. No refunds will be issued after this date, but substitutions are allowed.</p>
+        </div>
+      </div>
+      
+      <div class="accordion">
+        <div class="accordion-header">
+          Do you provide accommodation for delegates? <span class="accordion-icon">+</span>
+        </div>
+        <div class="accordion-content">
+          <p>ETMUN does not provide accommodation, but we can recommend nearby hotels and hostels that offer special rates for conference participants. Please contact us for more information.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About ETMUN</h3>
+          <p>English Talents Model United Nations is an educational conference that simulates the United Nations to develop students' diplomatic and leadership skills.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About</a></p>
+          <p><a href="committees.html">Committees</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="register.html">Register</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>Email: etmun@gmail.com</p>
+          <p>Phone: 07945676890</p>
+          <p>Address: English Talents School</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter">t</a>
+            <a href="#" aria-label="Instagram">i</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2025 ETMUN. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
