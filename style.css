@@ -28,7 +28,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-dark);
   background-color: var(--background-light);
@@ -40,7 +40,12 @@ body {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 1rem;
   color: var(--primary-color);
   font-weight: bold;
@@ -79,7 +84,12 @@ header {
   text-align: center;
   padding: 2rem 1rem;
   background-color: var(--primary-color);
-  background-image: linear-gradient(to right, var(--primary-dark), var(--primary-color), var(--primary-light));
+  background-image: linear-gradient(
+    to right,
+    var(--primary-dark),
+    var(--primary-color),
+    var(--primary-light)
+  );
   box-shadow: var(--shadow);
 }
 
@@ -188,7 +198,11 @@ nav {
   text-align: center;
   color: var(--text-light);
   background-color: var(--primary-dark);
-  background-image: linear-gradient(rgba(13, 15, 59, 0.8), rgba(13, 15, 59, 0.8)), url('images/hero-background.jpg');
+  background-image: linear-gradient(
+      rgba(13, 15, 59, 0.8),
+      rgba(13, 15, 59, 0.8)
+    ),
+    url("images/hero-background.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 2rem;
@@ -285,7 +299,9 @@ label {
   font-weight: bold;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   width: 100%;
   padding: 0.75rem;
   border: 1px solid #ddd;
@@ -295,7 +311,9 @@ input, textarea, select {
   transition: var(--transition);
 }
 
-input:focus, textarea:focus, select:focus {
+input:focus,
+textarea:focus,
+select:focus {
   outline: none;
   border-color: var(--primary-light);
   box-shadow: 0 0 0 3px rgba(22, 25, 114, 0.1);
@@ -330,7 +348,8 @@ footer {
   font-size: 1.25rem;
 }
 
-.footer-section p, .footer-section a {
+.footer-section p,
+.footer-section a {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 0.5rem;
 }
@@ -373,17 +392,37 @@ footer {
   text-align: center;
 }
 
-.mt-1 { margin-top: 0.5rem; }
-.mt-2 { margin-top: 1rem; }
-.mt-3 { margin-top: 1.5rem; }
-.mt-4 { margin-top: 2rem; }
-.mt-5 { margin-top: 3rem; }
+.mt-1 {
+  margin-top: 0.5rem;
+}
+.mt-2 {
+  margin-top: 1rem;
+}
+.mt-3 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 2rem;
+}
+.mt-5 {
+  margin-top: 3rem;
+}
 
-.mb-1 { margin-bottom: 0.5rem; }
-.mb-2 { margin-bottom: 1rem; }
-.mb-3 { margin-bottom: 1.5rem; }
-.mb-4 { margin-bottom: 2rem; }
-.mb-5 { margin-bottom: 3rem; }
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
+.mb-5 {
+  margin-bottom: 3rem;
+}
 
 /* Accordion */
 .accordion {
@@ -432,35 +471,35 @@ footer {
   :root {
     --container-padding: 3%;
   }
-  
+
   .hero {
     height: 50vh;
   }
-  
+
   .hero h1 {
     font-size: 2.5rem;
   }
-  
+
   .mobile-menu-btn {
     display: block;
   }
-  
+
   nav {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem var(--container-padding);
   }
-  
+
   .nav-links {
     display: none;
     width: 100%;
     flex-direction: column;
   }
-  
+
   .nav-links.active {
     display: flex;
   }
-  
+
   .nav-button {
     width: 100%;
     text-align: center;
@@ -472,23 +511,23 @@ footer {
   h1 {
     font-size: 2rem;
   }
-  
+
   h2 {
     font-size: 1.75rem;
   }
-  
+
   .hero h1 {
     font-size: 2rem;
   }
-  
+
   .hero p {
     font-size: 1rem;
   }
-  
+
   .content {
     padding: 1.5rem;
   }
-  
+
   .footer-container {
     grid-template-columns: 1fr;
   }
